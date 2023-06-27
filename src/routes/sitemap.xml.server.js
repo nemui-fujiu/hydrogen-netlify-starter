@@ -6,7 +6,7 @@ export async function api(request, {queryShop}) {
   const {data} = await queryShop({
     query: QUERY,
     variables: {
-      language: 'EN',
+      language: 'JA',
       urlLimits: MAX_URLS,
     },
   });

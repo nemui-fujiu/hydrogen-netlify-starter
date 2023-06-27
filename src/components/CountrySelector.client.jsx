@@ -15,7 +15,7 @@ export function CountrySelector() {
     country: {isoCode},
   } = useLocalization();
   const currentCountry = useMemo(() => {
-    const regionNamesInEnglish = new Intl.DisplayNames(['en'], {
+    const regionNamesInEnglish = new Intl.DisplayNames(['ja'], {
       type: 'region',
     });
 
